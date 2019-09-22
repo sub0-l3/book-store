@@ -1,0 +1,54 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.book {
+    width: 30%;
+    /* height: 10rem; */
+    background-color: beige;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+}
+
+.book__title {
+    font-size: large;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.book__img > img{
+    width: 65%        
+}
+
+.book__content {
+    padding: 1rem;
+}
+
+.book_author {
+    float: right;
+}
+
+.book__author-img {
+    margin-top: 1rem;
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.book__author-img > img {
+    width: 100%;
+}
+
+.search-box {
+    text-align: right;
+    margin: 1rem;
+}
+
+.container {
+
+}
